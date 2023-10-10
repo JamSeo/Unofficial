@@ -1,0 +1,319 @@
+
+/* post detail 전체 container */
+.postdetailallContainer {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px dotted red; */
+}
+
+/* button 디폴트 layout 삭제 */
+.buttonlayoutDel {
+  border: 0;
+  background-color: transparent;
+}
+
+/* post 내용 container */
+.postviewContainer {
+  width: 920px;
+  /* border: 1px dotted aqua; */
+}
+
+.postTopbar {
+  width: 820px;
+  margin: 23px auto;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+
+  /* border: 1px dotted red; */
+}
+
+.boardTitle {
+  color: #034BB9;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+.grayoutbutton {
+  border: 0;
+  background-color: transparent;
+
+  color: rgba(117, 117, 117, 0.80);
+  font-size: 17.537px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+/* post content 영역 */
+.postContainer {
+  width: 820px;
+  text-align: start;
+  margin: 0 auto;
+  /* overflow-x: auto; */
+
+  /* border: 1px dotted violet; */
+}
+
+.postTitle {
+  color: #000;
+  font-size: 31.567px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 31.567px */
+
+  /* border: 1px dotted red; */
+}
+
+.postusername {
+  color: #034BB9;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+  margin: 15px 0;
+}
+
+/* 생성일자 및 조회수*/
+.dateViews {
+  display: flex;
+  /* border: 1px dotted red; */
+}
+
+.posttimeago {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  
+  margin: 0 15px 0 0;
+}
+
+.postContentContainer {
+  width: 820px;
+  overflow-x: auto;
+
+  /* border: 1px dotted green; */
+  margin: 50px 0 50px 0;
+}
+
+.postBottombar {
+  width: 795px;
+  margin: 15px auto;
+}
+
+.tabthumbIcon {
+  margin: 0 auto;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tabthumbIcon:hover {
+  cursor: pointer;
+}
+
+.tabIcon {
+  margin: 0 8px 4px 0;
+  cursor: pointer;
+}
+
+.tabupIcon {
+  margin: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.tabregupIcon {
+  margin: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+
+.postcontentContainer {
+  margin: 50px 20px;
+}
+
+
+.postupdateBottom {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 8px 0 0;
+
+  /* border: 1px dotted violet; */
+}
+
+.postupdateBottomtab {
+  margin: 0 0 0 10px;
+}
+
+.postupdateBottomtab:hover {
+  cursor: pointer;
+  background-color: #ececec;
+}
+
+/* comment input css */
+
+.commentInputContainer{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.commentTitle {
+  width: 100%;
+  text-align: start;
+}
+
+.commentnickName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  margin: 15px 0 5px 0;
+  /* align-items: start; */
+}
+
+.commentnickNameInput {
+  padding-left: 8px;
+  border: 2px solid #D9D9D9;
+  border-radius: 0.3rem;
+}
+.commentnickNameInput::placeholder {
+  font-size: 1rem;
+}
+
+.commentbox {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  border: 2px solid #D9D9D9;
+  border-radius: 0.3rem;
+  margin: 7px 0 13px 0;
+}
+
+.commentInput {
+  width: 90%;
+  margin: 10px 0 15px 10px;
+  height: 50px;
+  font-size: 1rem;
+
+  border: 0;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  height: 6.25rem;
+}
+
+.commentButton {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: 100%;
+  
+    font-size: 0.9rem;
+    border: 0;
+    border-radius: 0 0.2rem 0.2rem 0;
+    background-color: #2c7dd6;
+    color: #fff;
+}
+
+.commentButton:hover {
+  background-color: #034BB9;        
+}
+
+/* comment detail here */
+
+.commentBottombar {
+  margin: 10px 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* comment pagination */
+.commentPagination {
+  margin: 0 auto;
+
+  /* border: 1px dotted red; */
+}
+
+.pageBottomtab {
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* board 게시글 더보기 */
+.moreTopbar {
+  width: 94%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boardmoreTitleA {
+  margin: 5pX 10px 0 10px;
+
+  color: #034BB9;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.boardmoreTitleB {
+  color: #757575;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 사이드바 */
+
+.sideviewContainer {
+  position: sticky;
+  width: 260px;
+  /* border: 1px red dotted; */
+
+  padding: 0 0 38px 0;
+}
+
+.sideContentContainer {
+  position: sticky;
+  right: 1%;
+  top: 3%;
+  /* border: 1px dotted violet; */
+}
+
+.sidecontentmiddleBox {
+  width: 260px;
+  margin: 0 auto;
+  /* border: 1px dotted orangered; */
+}
+
+.postmorePagination {
+  /* width: 600px; */
+  margin: 20px auto;
+  /* border: 1px dotted red; */
+}
+

@@ -1,0 +1,213 @@
+.commentContainer {
+  width: 100%;
+  /* border: 1px dotted red; */
+}
+
+.commentTopbar {
+  margin: 5px 20px 15px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px dotted red; */
+}
+
+.commentTitle {
+  color: #034bb9;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.commentGenLocalInfo {
+  margin: 0 6px 0 0;
+}
+
+.commentnickName {
+  margin: 0 0 3px 0;
+  /* border: 1px dotted red; */
+}
+
+.commentcreateTimeago {
+  margin: 0 10px 5px 10px;
+  color: #3e3e3e;
+}
+
+.commentContent {
+  margin: 0 20px;
+  /* border: 1px dotted red; */
+}
+
+/* 수정하기, 삭제하기 아이콘 */
+.commentIcons {
+  margin: 0 4px 3px 0;
+  cursor: pointer;
+}
+
+/* 수정하기 삭제하기 텍스트 위치 조정*/
+.updatetextPosition {
+  margin: 30px 0 0 10px;
+  /* border: 1px dotted red; */
+}
+.updatetextPosition:hover {
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+.commentBottombar {
+  margin: 10px 20px 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px dotted red; */
+}
+
+/* comment update 상태 스타일링 */
+.updateinputContainer {
+  width: 100%;
+  margin: 0 auto;
+
+  border: 0.1rem solid #d9d9d9;
+  border-radius: 0.3rem;
+}
+.updateInput {
+  margin: 10px 20px;
+
+  width: 95%;
+  height: 70px;
+  border: 0;
+}
+
+.commentupdateBottombar {
+  text-align: right;
+}
+
+.updateButtons {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px 15px 0 0;
+}
+
+.updateIcons {
+  margin: 0 0 5px 0;
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px; /* 스크롤바의 너비 */
+}
+
+textarea::-webkit-scrollbar-thumb {
+  height: 40%; /* 스크롤바의 길이 */
+  background: #f5f4f46a; /* 스크롤바의 색상 */
+
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: rgba(232, 232, 232, 0.1); /*스크롤바 뒷 배경 색상*/
+}
+.recommentButton {
+  border-radius: 2px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+}
+/* 대댓글 */
+/* 대댓글 전체 container */
+.recommentBoxContainer {
+  margin: 20px;
+  display: flex;
+}
+
+.reCommentContainer {
+  width: 100%;
+  /* padding: 0 0 0 30px; */
+  margin: 0 auto;
+
+  display: flex;
+  /* border: 1px dotted aqua; */
+}
+
+.recommentNicknameBox {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  /* border: 1px dotted red; */
+}
+
+.recommentNickname {
+  width: 50px;
+  margin: 0 10px 0 0;
+}
+
+.recommentNicknameInput {
+  padding-left: 8px;
+  border: 2px solid #d9d9d9;
+  border-radius: 0.3rem;
+}
+.recommentNicknameInput::placeholder {
+  font-size: 1rem;
+}
+.recommentEnter {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  color: #9b9b9b;
+}
+
+.commentbox {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  border: 2px solid #d9d9d9;
+  border-radius: 0.3rem;
+  margin: 7px 0 13px 0;
+
+  /* border: 1px dotted red; */
+}
+
+.commentInput {
+  width: 90%;
+  margin: 10px 0 10px 10px;
+  height: 50px;
+  font-size: 1rem;
+
+  border: 0;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.commentButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4rem;
+  height: 100%;
+
+  font-size: 0.9rem;
+  border: 0;
+  border-radius: 0 0.2rem 0.2rem 0;
+  background-color: #2c7dd6;
+  color: #fff;
+}
+
+.commentButton:hover {
+  background-color: #034bb9;
+}
+
+pre {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}

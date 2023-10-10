@@ -1,0 +1,25 @@
+.ssafybuttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.4rem;
+  border-radius: 5px;
+  border: 1px solid #C8C8C8;
+  background: #f6f7f8; 
+  margin-bottom: 0.4rem;
+  box-shadow: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0,0,0,.04);
+}
+.ssafybuttonContainer:hover {
+  box-shadow: 2px 2px 3px rgba(167, 167, 167, 0.5);
+}
+.ssafybuttonTitle {
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 100%; /* 15px */
+  margin-left: 5px;
+  margin-bottom: 0;
+}

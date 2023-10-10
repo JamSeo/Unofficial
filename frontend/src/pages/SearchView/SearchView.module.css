@@ -1,0 +1,250 @@
+.boardsTopContainer {
+  height: 120px;
+}
+
+/* 전체 검색 박스 */
+.searchboxall {
+  display: flex;
+  width: 750px;
+  margin: 10px auto;
+}
+
+.searchboxall p {
+  width: 200px;
+  padding: 8px 5px 0 0;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.searchInputBox {
+  position: relative;
+  margin: 0 10px 0 0;
+  width: 600px;
+  /* height: 50px; */
+
+  border: 1px solid #757575;
+  border-radius: 0.3rem;
+}
+
+#all {
+  height: 45px;
+}
+
+.search {
+  width: 95%;
+  margin: 0 auto;
+
+  font-size: 0.9rem;
+  border: transparent;
+}
+
+/* 전체 게시판 베스트 게시글 */
+.boardsallBestContainer {
+  position: relative;
+  display: flex;
+
+  width: 720px;
+  height: 35px;
+  margin: 15px auto;
+
+  border: 1px solid #75757579;
+  border-radius: 1rem;
+  background-color: #f6f7f8;
+}
+
+.boardsallBestBox {
+  padding: 2px 0 0 15px;
+
+  /* border: 1px dotted red; */
+  width: 500px;
+  text-align: start;
+}
+
+.bestbannerTitle {
+  height: 32px;
+  width: 160px;
+  padding: 3px 0 0 0;
+
+  color: rgba(10, 10, 10, 0.571);
+  /* border: 1px dotted red; */
+}
+
+.bestContentContainer {
+  /* border: 1px dotted red; */
+  /* 박스 길이 넘어가는 글자들 ... 처리*/
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.bestContent {
+  margin: 0 12px 0 0;
+
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 검색 결과창 전체 컨테이너 */
+.searchcontentContainer {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.searchkeywordBox {
+  max-width: 800px;
+  overflow: hidden; 
+
+  /* border: 1px dotted red; */
+}
+
+/* 검색 범위와 검색 키워드 */
+.searchUpheader {
+  margin: 20px 30px;
+
+  display: flex;
+  justify-content: space-between;
+
+  /* border: 1px dotted red; */
+}
+
+.boardTitle {
+  color: #034bb9;
+  margin: 0 10px 0 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.searchKeyword {
+  margin: 0 5px 0 10px;
+  font-size: 23px;
+  font-weight: 700;
+  max-width: 200px;
+
+  /* border: 1px dotted red; */
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  overflow: hidden; 
+}
+
+.grayoutbutton {
+  border: 0;
+  background-color: transparent;
+
+  color: rgba(117, 117, 117, 0.8);
+  font-size: 17.537px;
+  font-style: normal;
+  font-weight: 400;
+
+  /* border: 1px dotted gray; */
+}
+
+.searchbutton {
+  position: absolute;
+  right: 20px;
+  top: 16%;
+
+  border: 0;
+  border-radius: 1rem;
+  background-color: transparent;
+}
+
+.searchbutton:hover {
+  background-color: rgba(208, 208, 208, 0.264);
+}
+
+.searchbuttonIcon {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+
+  border: 0;
+  border-radius: 1rem;
+  background-color: transparent;
+}
+
+/* 게시물 전체 Container */
+
+.searchcontentBox {
+  width: 100%;
+  height: 800px;
+
+  /* border: 1px dotted gray; */
+}
+
+/* 제목별, 내용별 검색결과창 스타일링 */
+
+.searchcontentTabs {
+  margin: 0 5px 15px 30px;
+}
+
+/* 광고 container */
+.advContainer {
+  margin: 30px auto;
+
+  width: 920px;
+  height: 120px;
+}
+
+/* 게시판 탭 (자유게시판, 비밀게시판, 9기게시판 etc...) */
+
+.boardcontainer {
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 1px dotted green; */
+}
+
+.boardtabContainer {
+  width: 85.5%;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px red dotted; */
+}
+
+#boardtab {
+  margin: 0;
+  color: #000;
+
+  /* border: 0;
+  background-color: transparent; */
+
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+
+  /* border: 1px dotted blue; */
+}
+
+#boardtab:hover {
+  color: #1973cd;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  /* text-decoration: underline; */
+  /* text-underline-position: under; */
+}
+
+#boardtabSelected {
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+
+  color: #1973cd;
+  font-size: 17px;
+  font-weight: 700;
+  /* text-decoration: underline;
+  text-underline-position: under; */
+}
+
+.noSearchSentence {
+  font-size: 25px;
+  text-align: center;
+  padding: 60px 0;
+}

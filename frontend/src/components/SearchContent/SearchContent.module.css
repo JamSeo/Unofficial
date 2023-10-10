@@ -1,0 +1,9 @@
+.searchcontentContainer {
+  margin: 0 auto;
+
+  /* border: 1px dotted red; */
+}
+
+.searchcontentTabs {
+  margin: 0 5px 15px 30px;
+}
